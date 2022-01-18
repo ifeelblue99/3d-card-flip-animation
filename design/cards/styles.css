@@ -1,0 +1,160 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    box-sizing: border-box;
+    border: 1px red solid;
+}
+
+body{
+    background-color: rgb(26, 26, 26);
+}
+h2{
+    margin: 1rem;
+}
+
+.container{
+    width: 100%;
+    height: 100%;
+}
+.card-container{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.card1{
+    margin: 1rem;
+    border-radius: 15px;
+    width: 150px;
+    height: 200px;
+    transform-style: preserve-3d;
+    transition: transform 1s ease;
+    background-color: gray;
+}
+.card1:hover{
+    transform: rotateY(180deg);
+}
+.card1:active{
+    transform: scale(1.4)
+}
+
+.card-1-front{
+    border-radius: 15px;
+
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: green;
+    backface-visibility: hidden;
+}
+.card-1-back{
+    border-radius: 15px;
+
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    transform: rotateY(180deg);
+    background-color: yellow;
+    backface-visibility: hidden;
+}
+
+.card2{
+    margin: 1rem;
+    border-radius: 15px;
+    width: 150px;
+    height: 200px;
+    transform-style: preserve-3d;
+    transition: transform 1s ease;
+    background-color: gray;
+}
+.card2:hover{
+    transform: rotateY(180deg);
+}
+
+.card-2-front{
+    border-radius: 15px;
+
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: green;
+    backface-visibility: hidden;
+}
+.card-2-back{
+    border-radius: 15px;
+
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    transform: rotateY(180deg);
+    background-color: yellow;
+    backface-visibility: hidden;
+}
+
+.card3{
+    margin: 1rem;
+    border-radius: 15px;
+    width: 150px;
+    height: 200px;
+    transform-style: preserve-3d;
+    transition: transform 1s ease;
+    background-color: gray;
+}
+.card3:hover{
+    transform: rotateY(180deg);
+}
+
+.card-3-front{
+    border-radius: 15px;
+
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: green;
+    backface-visibility: hidden;
+}
+.card-3-back{
+    border-radius: 15px;
+
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    transform: rotateY(180deg);
+    background-color: yellow;
+    backface-visibility: hidden;
+}
+
+.card4{
+    margin: 1rem;
+    border-radius: 15px;
+    width: 150px;
+    height: 200px;
+    transform-style: preserve-3d;
+    transition: transform 1s ease;
+    background-color: gray;
+}
+.card4:hover{
+    transform: rotateY(180deg);
+}
+
+.card-4-front{
+    border-radius: 15px;
+
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: green;
+    backface-visibility: hidden;
+}
+.card-4-back{
+    border-radius: 15px;
+
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    transform: rotateY(180deg);
+    background-color: yellow;
+    backface-visibility: hidden;
+}
